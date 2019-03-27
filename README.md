@@ -8,9 +8,9 @@ allow users to share AR Objects, and have them persist when the user log outs.
 
 ## Open-Source libraries used
 
--[ARCore](https://github.com/google-ar/arcore-android-sdk) - Google's Augmented Reality Library
--[Sceneform](https://github.com/google-ar/sceneform-android-sdk) - Allows for easy rendering of 3D scenes, without OpenGL
--[ARCore-Location](https://github.com/appoly/ARCore-Location) - Allows for objects to associate with a location
+- [ARCore](https://github.com/google-ar/arcore-android-sdk) - Google's Augmented Reality Library
+- [Sceneform](https://github.com/google-ar/sceneform-android-sdk) - Allows for easy rendering of 3D scenes, without OpenGL
+- [ARCore-Location](https://github.com/appoly/ARCore-Location) - Allows for objects to associate with a location
 
 ## License
 
