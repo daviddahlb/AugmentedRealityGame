@@ -22,6 +22,7 @@ import com.google.ar.sceneform.ux.TransformableNode;
 
     public class MainActivity extends AppCompatActivity{
 
+        private SnackbarHelper snackbarHelper = new SnackbarHelper();
         private ModelRenderable cupRenderable;
         ArFragment arFragment;
 
