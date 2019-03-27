@@ -14,7 +14,7 @@
         tools:srcCompat="@tools:sample/avatars"
         android:layout_gravity="center"
         android:layout_marginTop="146dp"
-        android:src="@drawable/i"/>
+        android:src="@drawable/ic_launcher_background"/>
 
     <EditText
         android:id="@+id/etUsername"
