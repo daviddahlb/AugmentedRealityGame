@@ -37,6 +37,15 @@ dependencies {
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.7.0'
     // Alternatively, use ArSceneView without the UX dependency.
     implementation 'com.google.ar.sceneform:core:1.7.0'
+    //Adding th e Arcore location tracking software
+    implementation 'com.github.appoly:ARCore-Location:1.1.2'
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven { url 'https://jitpack.io' }
 }
 
 sceneform.asset('sampledata/models/cup.obj',

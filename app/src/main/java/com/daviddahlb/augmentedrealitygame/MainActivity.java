@@ -20,9 +20,15 @@ import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.BaseArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
 
-    public class MainActivity extends AppCompatActivity{
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+
+import uk.co.appoly.arcorelocation.LocationScene;
+
+public class MainActivity extends AppCompatActivity{
 
         private ModelRenderable cupRenderable;
+        private LocationScene locationScene;
         ArFragment arFragment;
 
         int selected = 1;
@@ -48,6 +54,30 @@ import com.google.ar.sceneform.ux.TransformableNode;
                     }
                 }
             });
+
+            //Setting up the renderables for the location services
+            CompletableFuture<ModelRenderable> andy = ModelRenderable.builder()
+                    .setSource(this, R.raw.andy)
+                    .build();
+
+
+            CompletableFuture.allOf(andy)
+                    .handle(
+                            (notUsed, throwable) ->
+                            {
+                                if (throwable != null) {
+                                    DemoUtils.displayError(this, "Unable to load renderables", throwable);
+                                    return null;
+                                }
+
+                                try {
+                                    andyRenderable = andy.get();
+
+                                } catch (InterruptedException | ExecutionException ex) {
+                                    DemoUtils.displayError(this, "Unable to load renderables", ex);
+                                }
+                                return null;
+                            });
         }
 
         private void setupModel() {
