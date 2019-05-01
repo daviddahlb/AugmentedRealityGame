@@ -9,6 +9,7 @@ public class SpawnBall : MonoBehaviour {
 
 	public void Spawn()
 	{
+        Debug.Log("TEST!");
 		Instantiate (ball, new Vector3(0f, 1f, -8f), Quaternion.identity);
 	}
 }
