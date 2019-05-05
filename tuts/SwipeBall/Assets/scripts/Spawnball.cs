@@ -10,8 +10,12 @@ public class Spawnball : MonoBehaviour
 
     public void Spawn()
     {
-        Debug.Log("Spawn ball button pressed!");
-        //Instantiate(ball, new Vector3(0f, 0f, 0f), Quaternion.identity);
-        Instantiate(ball, new Vector3(0f, 1f, 1f), Quaternion.identity);
+        Vector3 newPos = new Vector3(0.0f, 1.03f, -9.21f);
+        //ball.transform.position = newPos;
+        transform.localScale += new Vector3(2f, 2f, 2f);
+
+        //Debug.Log("Spawn ball button pressed!");
+        ////Instantiate(ball, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        //Instantiate(ball, new Vector3(0f, 1f, 1f), Quaternion.identity);
     }
 }
