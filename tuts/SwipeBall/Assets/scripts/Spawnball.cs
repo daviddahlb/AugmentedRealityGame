@@ -5,13 +5,13 @@ using UnityEngine;
 public class Spawnball : MonoBehaviour
 {
 
-    [SerializeField]
-    public GameObject ball;
+   // [SerializeField]
+    //public GameObject ball;
 
     public void Spawn()
     {
-        Vector3 newPos = new Vector3(0.0f, 1.03f, -9.21f);
-        //ball.transform.position = newPos;
+        //Vector3 newPos = new Vector3(0.0f, 1.03f, -9.21f);
+        //transform.position = newPos;
         transform.localScale += new Vector3(2f, 2f, 2f);
 
         //Debug.Log("Spawn ball button pressed!");
