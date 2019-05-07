@@ -11,7 +11,7 @@
 
 3. To confirm your SDK is properly configured, go to Edit -> Preferences, select External Tools, look under Android, and find the SDK field. Direct this entry box to where your SDK is located. If you have Android Studio Installed, you will find the SDK folder within Android Studio's directory. If you do not have an Android SDK package, download Android Studio [here]( https://developer.android.com/studio/index.html).
 
-4. Confirm App budle identifier is correct: The company name and product name sometimes revert to their default. To correct this possible error, at the top of the screen go to XR -> App Key Settings, and confirm the following: 
+4. Confirm **App Bundle Identifier** is correct: The company name and product name sometimes revert to their default. To correct this possible error, in the top menu bar, go to XR -> App Key Settings, and confirm the following: 
 
    - Product Name: CORN
    - Company Name: CDK
