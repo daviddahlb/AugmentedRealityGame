@@ -1,9 +1,8 @@
 # AugmentedRealityGame
-======
 
 
 ## Directions for Setup
----
+
 
 1. Clone repository, and open the folder tuts/SwipeBall in Unity
 (Other folders represent other tutorials and different versions of our project)
