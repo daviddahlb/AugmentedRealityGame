@@ -13,9 +13,9 @@
 
 4. Confirm App budle identifier is correct: The company name and product name sometimes revert to their default. To correct this possible error, at the top of the screen go to XR -> App Key Settings, and confirm the following: 
 
- - Product Name: CORN
- - Company Name: CDK
- - Bundle Identifier: com.CDK.CORN
+   - Product Name: CORN
+   - Company Name: CDK
+   - Bundle Identifier: com.CDK.CORN
 
 5. In the Build Setting screen, have your physical device connected to your computer and select your device from the drop down menu. Click Build and Run. 
  
