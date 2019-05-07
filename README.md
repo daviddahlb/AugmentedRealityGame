@@ -19,5 +19,5 @@
 
 5. In the Build Setting screen, have your physical device connected to your computer and select your device from the drop down menu. Click Build and Run. 
  
-Note: This project was devloped on Unity Version 2018.3.11f1, for purposes of compatibility between the project member's Operating Systems. The project should work fine on later versions of Unity, however. 
+Note: This project was devloped on Unity Version 2018.3.11f1, for purposes of compatibility between the project member's Operating Systems. When opening with a newer version of Unity, agree to Unity's suggestion to update the project, and it will run succesfully. 
 
