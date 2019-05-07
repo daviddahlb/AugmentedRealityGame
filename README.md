@@ -1,6 +1,6 @@
 # AugmentedRealityGame
-===
-===
+======
+
 
 ## Directions for Setup
 ---
