@@ -4,7 +4,7 @@
 ### Directions for Setup
 
 
-1. Clone repository, and open the folder tuts/SwipeBall in Unity
+1. Clone repository, and open the folder SwipeBall in Unity
 (Other folders represent other tutorials and different versions of our project)
 
 2. Once project is opened in Unity, go to File -> Build Settings, select Android, then press the Switch Platform button. 
